@@ -1,0 +1,11 @@
+# action.yml
+name: 'Hello World'
+description: 'Print greeting message'
+author: 'GitHub'
+inputs:
+  greeting:
+    description: 'Who to greet'
+    default: 'world'
+runs:
+  using: 'node12'
+  main: 'index.js'
